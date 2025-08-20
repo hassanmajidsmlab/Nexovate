@@ -1,9 +1,8 @@
 {
   "files": {
-    "main.css": "/Nexovate/static/css/main.6b622326.css",
-    "main.js": "/Nexovate/static/js/main.c4d8d29c.js",
+    "main.css": "/Nexovate/static/css/main.3d540bcb.css",
+    "main.js": "/Nexovate/static/js/main.482190be.js",
     "static/js/453.37d733a6.chunk.js": "/Nexovate/static/js/453.37d733a6.chunk.js",
-    "static/media/project2.jpg": "/Nexovate/static/media/project2.c8de542e2dd44f58d938.jpg",
     "static/media/project1.jpg": "/Nexovate/static/media/project1.b3f2954a7831ad21938e.jpg",
     "static/media/project3.jpg": "/Nexovate/static/media/project3.62442e8e7b59c938ddad.jpg",
     "static/media/project4.jpg": "/Nexovate/static/media/project4.9f29f236da8bcac3c26e.jpg",
@@ -11,12 +10,12 @@
     "static/media/hero.png": "/Nexovate/static/media/hero.5fb7212170870432b5b4.png",
     "static/media/about.jpg": "/Nexovate/static/media/about.bdd955cb28a57715ae9a.jpg",
     "index.html": "/Nexovate/index.html",
-    "main.6b622326.css.map": "/Nexovate/static/css/main.6b622326.css.map",
-    "main.c4d8d29c.js.map": "/Nexovate/static/js/main.c4d8d29c.js.map",
+    "main.3d540bcb.css.map": "/Nexovate/static/css/main.3d540bcb.css.map",
+    "main.482190be.js.map": "/Nexovate/static/js/main.482190be.js.map",
     "453.37d733a6.chunk.js.map": "/Nexovate/static/js/453.37d733a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6b622326.css",
-    "static/js/main.c4d8d29c.js"
+    "static/css/main.3d540bcb.css",
+    "static/js/main.482190be.js"
   ]
 }
