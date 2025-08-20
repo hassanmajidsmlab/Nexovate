@@ -34,7 +34,7 @@ const Clients = () => {
         Trusted by <span className="text-themegreen">Businesses Worldwide</span>{" "}
         for Reliable IT Solutions
       </div>
-      <div className="w-full grid lg:grid-cols-4 grid-cols-2">
+      <div className="w-full grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4">
         <div
           data-aos="slide-up"
           data-aos-delay="100"

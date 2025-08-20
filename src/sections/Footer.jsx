@@ -14,16 +14,16 @@ const Footer = () => {
         </div>
         <p className='text-gray-300 text-md font-poppins'>Feel free to call us in working hours Mon - fri 10:00am - 7:00pm. Our team will be happy to help answer your queries.</p>
         <div className='flex justify-center items-center gap-2 text-white'><FaPhoneVolume className='text-themegreen size-5' /> +1 234 567 890</div>
-        <div className='flex justify-center items-center gap-6'><FaFacebookF className='size-4 text-white hover:text-themegreen cursor-pointer' /><FaTwitter className='size-4 text-white hover:text-themegreen cursor-pointer' /><FaLinkedinIn className='size-4 text-white hover:text-themegreen cursor-pointer' /><FaInstagram className='size-4 text-white hover:text-themegreen cursor-pointer' /></div>
+        {/* <div className='flex justify-center items-center gap-6'><FaFacebookF className='size-4 text-white hover:text-themegreen cursor-pointer' /><FaTwitter className='size-4 text-white hover:text-themegreen cursor-pointer' /><FaLinkedinIn className='size-4 text-white hover:text-themegreen cursor-pointer' /><FaInstagram className='size-4 text-white hover:text-themegreen cursor-pointer' /></div> */}
       </div>
         <div className='lg:w-[15%] w-full flex flex-col justify-center items-start gap-6'>
-          <h1 className='text-white text-[23px] capitalize leading-[1.2em] font-poppins'>Company</h1>
+          <h1 className='text-white text-[23px] capitalize leading-[1.2em] font-poppins'>Quick Links</h1>
           <ul className='flex flex-col justify-center items-start gap-2'>
-            <li className='text-gray-300 hover:text-themegreen cursor-pointer text-md'>Home</li>
-            <li className='text-gray-300 hover:text-themegreen cursor-pointer text-md'>About Us</li>
-            <li className='text-gray-300 hover:text-themegreen cursor-pointer text-md'>Pricing</li>
-            <li className='text-gray-300 hover:text-themegreen cursor-pointer text-md'>Blog</li>
-            <li className='text-gray-300 hover:text-themegreen cursor-pointer text-md'>Our Projects</li>
+            <li className='text-gray-300 hover:text-themegreen cursor-pointer text-md'><a href="#home">Home</a></li>
+            <li className='text-gray-300 hover:text-themegreen cursor-pointer text-md'><a href="#about">About Us</a></li>
+            <li className='text-gray-300 hover:text-themegreen cursor-pointer text-md'><a href="#services">Services</a></li>
+            <li className='text-gray-300 hover:text-themegreen cursor-pointer text-md'><a href="#testimonials">Testimonials</a></li>
+            <li className='text-gray-300 hover:text-themegreen cursor-pointer text-md'><a href="#contact">Contact</a></li>
           </ul>
         </div>
         <div className='lg:w-[15%] w-full flex flex-col justify-center items-start gap-5'>

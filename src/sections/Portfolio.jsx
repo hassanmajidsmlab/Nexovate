@@ -47,7 +47,7 @@ const Portfolio = () => {
       <div
         data-aos="slide-up"
         data-aos-delay="200"
-        className="grid lg:grid-cols-2 grid-cols-1 justify-center items-center gap-10 mt-8"
+        className="grid lg:grid-cols-3 grid-cols-1 justify-center items-center gap-10 mt-8"
       >
         {projects.map((project, index) => (
           <div key={index} className="flex flex-col justify-center items-start">

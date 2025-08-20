@@ -19,7 +19,7 @@ const Offer = () => {
       <h1 data-aos="zoom-in" data-aos-delay="100" className='text-black lg:text-[45px] text-[30px] capitalize leading-[1.2em] font-poppins lg:w-[50%] w-full text-center'>Driving Digital Transformation with Excellence</h1>
       <p data-aos="zoom-in" data-aos-delay="150" className='text-gray-500 text-md font-poppins lg:w-[60%] w-full text-center'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam quis quas dolorum quasi reprehenderit deserunt omnis doloremque corrupti nemo temporibus?</p>
 
-      <div className='w-full grid lg:grid-cols-3 grid-cols-1 justify-center items-center gap-6 mt-6'>
+      <div className='w-full grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 justify-center items-center gap-6 mt-6'>
         {services.map((service, index) => (
           <div data-aos="slide-up" data-aos-delay="180" key={index} className='flex flex-col justify-center items-start gap-4 p-10 border-2 border-gray-200 bg-white hover:bg-green-100 rounded-md cursor-pointer'>
             <service.icon className='size-[35px] mb-5' />
